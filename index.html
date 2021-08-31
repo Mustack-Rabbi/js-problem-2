@@ -14,9 +14,25 @@
 
     <script>
 
+ var friends = ["mustack","rabbi","robi","akasbatas","eurkfjrljor","jldfljdfdflnfnfn","ttttttttttttttttttt"];
+
+     var name=friends[0];
+     var nameBig=name.length;
+
+     for(var i=0; i<friends.length; i++){
+        var nameCom=friends[i];
+     }
+    var nameComLen=nameCom.length;
 
 
-       
+    if (nameBig>nameComLen){
+        name=name;
+    }else{
+        name=nameCom;
+    }
+
+    document.getElementById("friend").innerHTML = name;
+
     </script>
 </body>
 </html>
